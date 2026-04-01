@@ -10,25 +10,7 @@ An interactive web demonstration of a movie recommendation system using collabor
 - **Real-time Updates**: Dynamic recommendation generation
 - **Performance Metrics**: Displays RMSE, MAE, and Precision@5 scores
 
-## 🚀 Quick Start
 
-1. **Open the website**:
-   - Simply open `index.html` in your web browser
-   - Or use a local server for the best experience
-
-2. **Using a local server** (recommended):
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
-
-   # Using Python 2
-   python -m SimpleHTTPServer 8000
-
-   # Using Node.js (http-server)
-   npx http-server
-   ```
-
-3. **Navigate to**: `http://localhost:8000`
 
 ## 📊 How It Works
 
@@ -119,4 +101,3 @@ Feel free to fork this project and add your own improvements!
 
 ---
 
-**Made with ❤️ using Collaborative Filtering**
