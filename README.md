@@ -91,13 +91,7 @@ Potential improvements:
 - Movie details modal
 - Comparison with other algorithms (User-KNN, Item-KNN)
 
-## 📝 License
 
-This is a demonstration project created for educational purposes.
-
-## 🤝 Contributing
-
-Feel free to fork this project and add your own improvements!
 
 ---
 
