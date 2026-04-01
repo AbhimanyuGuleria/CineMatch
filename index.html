@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch AI - Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Header -->
+        <header>
+            <div class="logo">
+                <span class="logo-icon">🎬</span>
+                <span class="logo-text">CineMatch<span class="logo-ai">AI</span></span>
+            </div>
+            <h1>Movie Recommendation System</h1>
+            <p class="subtitle">Powered by Collaborative Filtering & SVD Matrix Factorization</p>
+            <div class="header-badges">
+                <span class="badge">Machine Learning</span>
+                <span class="badge">MovieLens 100K</span>
+                <span class="badge">Real-time Predictions</span>
+            </div>
+        </header>
+
+        <!-- Performance Stats 
+        <div class="info-panel">
+            <h3 class="panel-title">Model Performance Metrics</h3>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-icon">👥</span>
+                    <span class="stat-value">943</span>
+                    <span class="stat-label">Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🎥</span>
+                    <span class="stat-value">1,682</span>
+                    <span class="stat-label">Movies</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">📊</span>
+                    <span class="stat-value">0.86</span>
+                    <span class="stat-label">RMSE</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🎯</span>
+                    <span class="stat-value">73%</span>
+                    <span class="stat-label">Precision@5</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">⚡</span>
+                    <span class="stat-value">100K</span>
+                    <span class="stat-label">Ratings</span>
+                </div>
+            </div>
+        </div>
+    -->
+        <!-- User Selection Panel - NOW FIRST -->
+        <div class="user-selection">
+            <div class="selection-left">
+                <label for="user-select">Select User Profile:</label>
+                <select id="user-select">
+                    <option value="1">🦸 User 1 - Action Lover</option>
+                    <option value="2">🎭 User 2 - Drama Enthusiast</option>
+                    <option value="3">😄 User 3 - Comedy Fan</option>
+                    <option value="4">🚀 User 4 - Sci-Fi Geek</option>
+                    <option value="5">💕 User 5 - Romance Admirer</option>
+                </select>
+            </div>
+            <div id="user-profile-info" class="user-profile-info"></div>
+            <button id="get-recommendations">Get Recommendations</button>
+        </div>
+
+        <!-- Algorithm Pipeline -->
+        <div class="algorithm-info">
+            <h3>📊 SVD Recommendation Pipeline</h3>
+            <div class="pipeline">
+                <div class="pipeline-step">
+                    <div class="step-icon">📋</div>
+                    <div class="step-text">Raw Ratings</div>
+                    <div class="step-sub">User-Item Matrix</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+                <div class="pipeline-step">
+                    <div class="step-icon">⚙️</div>
+                    <div class="step-text">Preprocessing</div>
+                    <div class="step-sub">Normalization</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+                <div class="pipeline-step highlight">
+                    <div class="step-icon">🧮</div>
+                    <div class="step-text">SVD Training</div>
+                    <div class="step-sub">Matrix Factorization</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+                <div class="pipeline-step">
+                    <div class="step-icon">🎯</div>
+                    <div class="step-text">Predictions</div>
+                    <div class="step-sub">Rating Estimation</div>
+                </div>
+                <div class="pipeline-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+                <div class="pipeline-step success">
+                    <div class="step-icon">⭐</div>
+                    <div class="step-text">Top-5</div>
+                    <div class="step-sub">Recommendations</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommendations Section - NOW ABOVE GRAPHS -->
+        <div class="recommendations-section">
+            <div class="section-header">
+                <h2>🎯 Personalized Recommendations</h2>
+                <p class="section-subtitle">Based on collaborative filtering analysis of similar users</p>
+            </div>
+            <div id="recommendations-container" class="recommendations-grid">
+                <!-- Recommendations will be populated here -->
+            </div>
+        </div>
+
+        <!-- VISUALIZATIONS SECTION - NOW BELOW RECOMMENDATIONS -->
+        <div class="visualizations-section">
+            <div class="section-header">
+                <h2>📊 Data Visualizations & Analytics</h2>
+                <p class="section-subtitle">Interactive charts showing algorithm performance and data insights</p>
+            </div>
+
+            <div class="charts-grid">
+                <!-- Model Comparison Chart -->
+                <div class="chart-card">
+                    <h4>🏆 Algorithm Performance Comparison</h4>
+                    <p class="chart-desc">RMSE comparison across different recommendation algorithms</p>
+                    <div class="chart-container">
+                        <canvas id="modelComparisonChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- User Preference Radar Chart -->
+                <div class="chart-card">
+                    <h4>🎯 User Preference Profile</h4>
+                    <p class="chart-desc">Genre preferences for the selected user</p>
+                    <div class="chart-container">
+                        <canvas id="userPreferenceChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Genre Distribution Chart -->
+                <div class="chart-card">
+                    <h4>🎬 Genre Distribution</h4>
+                    <p class="chart-desc">Distribution of movies across genres in database</p>
+                    <div class="chart-container">
+                        <canvas id="genreDistributionChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Rating Distribution Chart -->
+                <div class="chart-card">
+                    <h4>⭐ Rating Distribution</h4>
+                    <p class="chart-desc">Distribution of predicted ratings for recommendations</p>
+                    <div class="chart-container">
+                        <canvas id="ratingDistributionChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SVD Matrix Visualization -->
+            <div class="matrix-visualization">
+                <h4>🧮 SVD Matrix Factorization Visualization</h4>
+                <p class="chart-desc">Visual representation of how SVD decomposes the user-item rating matrix</p>
+                <div class="matrix-container">
+                    <div class="matrix-box">
+                        <div class="matrix-label">R (Rating Matrix)</div>
+                        <div class="matrix-grid" id="matrix-r"></div>
+                        <div class="matrix-size">943 × 1682</div>
+                    </div>
+                    <div class="matrix-equals">≈</div>
+                    <div class="matrix-box user-matrix">
+                        <div class="matrix-label">U (User Factors)</div>
+                        <div class="matrix-grid" id="matrix-u"></div>
+                        <div class="matrix-size">943 × k</div>
+                    </div>
+                    <div class="matrix-multiply">×</div>
+                    <div class="matrix-box sigma-matrix">
+                        <div class="matrix-label">Σ (Singular Values)</div>
+                        <div class="matrix-grid" id="matrix-sigma"></div>
+                        <div class="matrix-size">k × k</div>
+                    </div>
+                    <div class="matrix-multiply">×</div>
+                    <div class="matrix-box item-matrix">
+                        <div class="matrix-label">V<sup>T</sup> (Item Factors)</div>
+                        <div class="matrix-grid" id="matrix-v"></div>
+                        <div class="matrix-size">k × 1682</div>
+                    </div>
+                </div>
+                <div class="latent-factors">
+                    <span class="factor-badge">k = 50 latent factors</span>
+                    <span class="factor-badge">Learning Rate: 0.005</span>
+                    <span class="factor-badge">Regularization: 0.02</span>
+                </div>
+            </div>
+
+            <!-- Training Progress Chart -->
+            <div class="chart-card full-width">
+                <h4>📈 Model Training Progress</h4>
+                <p class="chart-desc">RMSE convergence over training epochs</p>
+                <div class="chart-container-wide">
+                    <canvas id="trainingProgressChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Browse All Movies Section -->
+        <div class="browse-section">
+            <div class="section-header">
+                <h2>🎬 Browse Movie Database</h2>
+                <p class="section-subtitle">Explore our collection of 30 classic and popular films</p>
+            </div>
+            <div class="genre-filters">
+                <button class="genre-filter-btn active" data-genre="all">All</button>
+                <button class="genre-filter-btn" data-genre="Action">Action</button>
+                <button class="genre-filter-btn" data-genre="Drama">Drama</button>
+                <button class="genre-filter-btn" data-genre="Sci-Fi">Sci-Fi</button>
+                <button class="genre-filter-btn" data-genre="Comedy">Comedy</button>
+                <button class="genre-filter-btn" data-genre="Thriller">Thriller</button>
+                <button class="genre-filter-btn" data-genre="Animation">Animation</button>
+            </div>
+            <div id="all-movies-container" class="all-movies-grid">
+                <!-- All movies will be populated here -->
+            </div>
+        </div>
+
+        <!-- Technical Details -->
+        <div class="methodology">
+            <h3>🔬 Technical Implementation</h3>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🧠</div>
+                    <h4>Algorithm</h4>
+                    <p>SVD (Singular Value Decomposition) with latent factor model for matrix factorization</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📁</div>
+                    <h4>Dataset</h4>
+                    <p>MovieLens 100K - 100,000 ratings from 943 users on 1,682 movies</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">⚡</div>
+                    <h4>Optimization</h4>
+                    <p>Stochastic Gradient Descent (SGD) with regularization to prevent overfitting</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📈</div>
+                    <h4>Evaluation</h4>
+                    <p>Cross-validated with RMSE: 0.86, MAE: 0.88, Precision@5: 0.73</p>
+                </div>
+            </div>
+
+            <!-- Formula Section -->
+            <div class="formula-section">
+                <h4>Mathematical Foundation</h4>
+                <div class="formula-box">
+                    <p class="formula">R ≈ U × Σ × V<sup>T</sup></p>
+                    <p class="formula-desc">Where R is the user-item rating matrix, U represents user latent factors, and V represents item latent factors</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">🎬</span>
+                    <span>CineMatch AI</span>
+                </div>
+                <p>Movie Recommendation System using Collaborative Filtering</p>
+                <div class="footer-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Chart.js</span>
+                    <span>SVD Algorithm</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Movie Detail Modal -->
+    <div id="movie-modal" class="modal">
+        <div id="modal-content" class="modal-content">
+            <!-- Modal content will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="charts.js"></script>
+</body>
+</html>
