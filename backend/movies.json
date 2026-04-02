@@ -1755,5 +1755,662 @@
     "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w1280/nsHXexZQvUJv8WXvmQHohn5Hv1l.jpg",
     "id": 105
+  },
+  {
+    "title": "Dune",
+    "year": 2021,
+    "genres": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "baseRating": 4.8,
+    "description": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people.",
+    "director": "Denis Villeneuve",
+    "runtime": 155,
+    "imdbId": "tt1160419",
+    "poster": "https://image.tmdb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qVgZu5BTx6pu4owCvVOm4zjTfOi.jpg",
+    "id": 106
+  },
+  {
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "baseRating": 4.9,
+    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+    "director": "Christopher Nolan",
+    "runtime": 180,
+    "imdbId": "tt15398776",
+    "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
+    "id": 107
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "baseRating": 4.8,
+    "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission.",
+    "director": "Joseph Kosinski",
+    "runtime": 130,
+    "imdbId": "tt1745960",
+    "poster": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+    "id": 108
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "baseRating": 4.7,
+    "description": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes.",
+    "director": "Daniel Kwan & Daniel Scheinert",
+    "runtime": 139,
+    "imdbId": "tt6710474",
+    "poster": "https://image.tmdb.org/t/p/w500/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ss0Os3uWJfQAENILHZUdX8Tt1OC.jpg",
+    "id": 109
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "baseRating": 4.9,
+    "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+    "director": "Bob Persichetti",
+    "runtime": 117,
+    "imdbId": "tt4633694",
+    "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+    "id": 110
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "baseRating": 4.8,
+    "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+    "director": "Joaquim Dos Santos",
+    "runtime": 140,
+    "imdbId": "tt9362722",
+    "poster": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9xfDWXAUbFXQK585JvByT5pEAhe.jpg",
+    "id": 111
+  },
+  {
+    "title": "The Batman",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "baseRating": 4.6,
+    "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption.",
+    "director": "Matt Reeves",
+    "runtime": 176,
+    "imdbId": "tt1877830",
+    "poster": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
+    "id": 112
+  },
+  {
+    "title": "Knives Out",
+    "year": 2019,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "baseRating": 4.5,
+    "description": "A detective investigates the death of a patriarch of an eccentric, combative family.",
+    "director": "Rian Johnson",
+    "runtime": 130,
+    "imdbId": "tt8946378",
+    "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+    "id": 113
+  },
+  {
+    "title": "John Wick: Chapter 4",
+    "year": 2023,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "baseRating": 4.7,
+    "description": "John Wick uncovers a path to defeating The High Table but must face a new enemy with powerful alliances across the globe.",
+    "director": "Chad Stahelski",
+    "runtime": 169,
+    "imdbId": "tt10366206",
+    "poster": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+    "id": 114
+  },
+  {
+    "title": "Arrival",
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.6,
+    "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "director": "Denis Villeneuve",
+    "runtime": 116,
+    "imdbId": "tt2543164",
+    "poster": "https://image.tmdb.org/t/p/w500/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/r8FD6CC3GgjWaGVkZh00AcedfpA.jpg",
+    "id": 115
+  },
+  {
+    "title": "Get Out",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "baseRating": 4.5,
+    "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him reaches a boiling point.",
+    "director": "Jordan Peele",
+    "runtime": 104,
+    "imdbId": "tt5052448",
+    "poster": "https://image.tmdb.org/t/p/w500/mE24wUCfjK8AoBBjaMjho7Rczr7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/o8dPH0ZSIyyViP6rjRX1djwCUwI.jpg",
+    "id": 116
+  },
+  {
+    "title": "1917",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "baseRating": 4.7,
+    "description": "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+    "director": "Sam Mendes",
+    "runtime": 119,
+    "imdbId": "tt8579674",
+    "poster": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2lBOQK06tltt8SQaswgb8d657Mv.jpg",
+    "id": 117
+  },
+  {
+    "title": "Barbie",
+    "year": 2023,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "baseRating": 4.4,
+    "description": "Barbie suffers a crisis that leads her to question her world and her existence.",
+    "director": "Greta Gerwig",
+    "runtime": 114,
+    "imdbId": "tt1517268",
+    "poster": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3N5QNUqS76GFYNoEayfkkJyAyTN.jpg",
+    "id": 118
+  },
+  {
+    "title": "Logan",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.8,
+    "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+    "director": "James Mangold",
+    "runtime": 137,
+    "imdbId": "tt3315342",
+    "poster": "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4DZxWNSAyksN6N3JkvpJ53Yq6zU.jpg",
+    "id": 119
+  },
+  {
+    "title": "A Quiet Place",
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.3,
+    "description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
+    "director": "John Krasinski",
+    "runtime": 90,
+    "imdbId": "tt6644200",
+    "poster": "https://image.tmdb.org/t/p/w500/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nHRUtBwFNnNN70vcQ7lAsjc2T6S.jpg",
+    "id": 120
+  },
+  {
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "genres": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "baseRating": 4.9,
+    "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+    "director": "Denis Villeneuve",
+    "runtime": 166,
+    "imdbId": "tt15239678",
+    "poster": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+    "id": 121
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "baseRating": 4.6,
+    "description": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own.",
+    "director": "James Gunn",
+    "runtime": 150,
+    "imdbId": "tt6791350",
+    "poster": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+    "id": 122
+  },
+  {
+    "title": "Godzilla Minus One",
+    "year": 2023,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.8,
+    "description": "Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.",
+    "director": "Takashi Yamazaki",
+    "runtime": 124,
+    "imdbId": "tt23289160",
+    "poster": "https://image.tmdb.org/t/p/w500/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1FMnXfgPFJFWhPrCZBgXwHbwmye.jpg",
+    "id": 123
+  },
+  {
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.7,
+    "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+    "director": "Denis Villeneuve",
+    "runtime": 164,
+    "imdbId": "tt1856101",
+    "poster": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/askFH4GSk2u9z3ZE5ypdKIMeqLJ.jpg",
+    "id": 124
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "baseRating": 4.4,
+    "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+    "director": "James Cameron",
+    "runtime": 192,
+    "imdbId": "tt1630029",
+    "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cd8YDn7M0lfaHhZdU6MvCDxPalP.jpg",
+    "id": 125
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.8,
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+    "director": "Jon Watts",
+    "runtime": 148,
+    "imdbId": "tt10872600",
+    "poster": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zD5v1E4joAzFvmAEytt7fM3ivyT.jpg",
+    "id": 126
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "year": 2024,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.7,
+    "description": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+    "director": "Shawn Levy",
+    "runtime": 127,
+    "imdbId": "tt6263850",
+    "poster": "https://image.tmdb.org/t/p/w500/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/en971MEXui9diirXlogOrPKmsEn.jpg",
+    "id": 127
+  },
+  {
+    "title": "Mission: Impossible - Fallout",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "baseRating": 4.8,
+    "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission goes wrong.",
+    "director": "Christopher McQuarrie",
+    "runtime": 147,
+    "imdbId": "tt4560436",
+    "poster": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5jnoAA74Qwb5w6B9FMvnc20n6Ie.jpg",
+    "id": 128
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "baseRating": 4.5,
+    "description": "A plumber named Mario travels through an underground labyrinth with his brother, Luigi, trying to save a captured princess.",
+    "director": "Aaron Horvath",
+    "runtime": 92,
+    "imdbId": "tt6718170",
+    "poster": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+    "id": 129
+  },
+  {
+    "title": "Inside Out 2",
+    "year": 2024,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "baseRating": 4.7,
+    "description": "A sequel that features Riley entering puberty and experiencing brand new, more complex emotions as a result.",
+    "director": "Kelsey Mann",
+    "runtime": 96,
+    "imdbId": "tt22022452",
+    "poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+    "id": 130
+  },
+  {
+    "title": "Poor Things",
+    "year": 2023,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "baseRating": 4.6,
+    "description": "The incredible tale about the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+    "director": "Yorgos Lanthimos",
+    "runtime": 141,
+    "imdbId": "tt14230458",
+    "poster": "https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zh6IdheEYinU4TPtorWsjx6qPQE.jpg",
+    "id": 131
+  },
+  {
+    "title": "Killers of the Flower Moon",
+    "year": 2023,
+    "genres": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "baseRating": 4.7,
+    "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+    "director": "Martin Scorsese",
+    "runtime": 206,
+    "imdbId": "tt5537002",
+    "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1X7vow16X7CnCoexXh4H4F2yDJv.jpg",
+    "id": 132
+  },
+  {
+    "title": "Ford v Ferrari",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama"
+    ],
+    "baseRating": 4.8,
+    "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+    "director": "James Mangold",
+    "runtime": 152,
+    "imdbId": "tt2404435",
+    "poster": "https://image.tmdb.org/t/p/w500/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2vq5GTJOahE03mNYZGxIynlHcWr.jpg",
+    "id": 133
+  },
+  {
+    "title": "Tenet",
+    "year": 2020,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "baseRating": 4.4,
+    "description": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "director": "Christopher Nolan",
+    "runtime": 150,
+    "imdbId": "tt10048342",
+    "poster": "https://image.tmdb.org/t/p/w500/aCIFMriQh8rvhxpN1IWGgvH0Tlg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7BYtnXUfweV6EryNYDpZFeS31Ia.jpg",
+    "id": 134
+  },
+  {
+    "title": "No Time to Die",
+    "year": 2021,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "baseRating": 4.5,
+    "description": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+    "director": "Cary Joji Fukunaga",
+    "runtime": 163,
+    "imdbId": "tt2382320",
+    "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/x9td0NQha0t44K2qgcMipLOGjVi.jpg",
+    "id": 135
+  },
+  {
+    "title": "The Northman",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "baseRating": 4.4,
+    "description": "From visionary director Robert Eggers comes an action-filled epic that follows a young Viking prince on his quest to avenge his father's murder.",
+    "director": "Robert Eggers",
+    "runtime": 137,
+    "imdbId": "tt11138512",
+    "poster": "https://image.tmdb.org/t/p/w500/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+    "id": 136
+  },
+  {
+    "title": "The Whale",
+    "year": 2022,
+    "genres": [
+      "Drama"
+    ],
+    "baseRating": 4.6,
+    "description": "A reclusive, morbidly obese English teacher attempts to reconnect with his estranged teenage daughter.",
+    "director": "Darren Aronofsky",
+    "runtime": 117,
+    "imdbId": "tt13833688",
+    "poster": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/46FRuCeAn6TrS4F1P4F9zhyCpyo.jpg",
+    "id": 137
+  },
+  {
+    "title": "Furiosa: A Mad Max Saga",
+    "year": 2024,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.7,
+    "description": "The origin story of renegade warrior Furiosa before her encounter and teamup with Mad Max.",
+    "director": "George Miller",
+    "runtime": 148,
+    "imdbId": "tt12037194",
+    "poster": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
+    "id": 138
+  },
+  {
+    "title": "Civil War",
+    "year": 2024,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "baseRating": 4.5,
+    "description": "A journey across a dystopian future America, following a team of military-embedded journalists as they race against time to reach DC before rebel factions descend upon the White House.",
+    "director": "Alex Garland",
+    "runtime": 109,
+    "imdbId": "tt17279496",
+    "poster": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/en3GU5uGkKaYmSyetHV4csHHiH3.jpg",
+    "id": 139
+  },
+  {
+    "title": "Society of the Snow",
+    "year": 2023,
+    "genres": [
+      "Adventure",
+      "Biography",
+      "Drama"
+    ],
+    "baseRating": 4.7,
+    "description": "The flight of a rugby team crashes on a glacier in the Andes. The few passengers who survive the crash find themselves in one of the world's toughest environments to survive.",
+    "director": "J.A. Bayona",
+    "runtime": 144,
+    "imdbId": "tt16277242",
+    "poster": "https://image.tmdb.org/t/p/w500/2e853FDVSIso600RqAMunPxiZjq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/md848EEPm3dHZOqwGxxTVwH2vu5.jpg",
+    "id": 140
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "baseRating": 4.4,
+    "description": "A plumber named Mario travels through an underground labyrinth with his brother, Luigi, trying to save a captured princess.",
+    "director": "Aaron Horvath",
+    "runtime": 92,
+    "imdbId": "tt6718170",
+    "poster": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+    "id": 141
+  },
+  {
+    "title": "Asteroid City",
+    "year": 2023,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "baseRating": 4.2,
+    "description": "Following a writer on his world famous fictional play about a grieving father who travels with his tech-obsessed family to small rural Asteroid City to compete in a junior stargazing event.",
+    "director": "Wes Anderson",
+    "runtime": 105,
+    "imdbId": "tt14230388",
+    "poster": "https://image.tmdb.org/t/p/w500/hfo7pvL9Fys7rocfL4VOzw9qDEQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iloUOSs3Rcq3aMr04CrGRWVVBkq.jpg",
+    "id": 142
+  },
+  {
+    "title": "The Creator",
+    "year": 2023,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.3,
+    "description": "Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the secret weapon.",
+    "director": "Gareth Edwards",
+    "runtime": 133,
+    "imdbId": "tt11858890",
+    "poster": "https://image.tmdb.org/t/p/w500/3dSivDtOuyxLDxPH4v2tcNG1fP7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iQcCAm8hKWZyUntqrvzyEGtXyJl.jpg",
+    "id": 143
+  },
+  {
+    "title": "Challengers",
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sport"
+    ],
+    "baseRating": 4.6,
+    "description": "Tashi, a tennis player-turned-coach, has taken her husband, Art, and transformed him from a mediocre player into a world-famous Grand Slam champion.",
+    "director": "Luca Guadagnino",
+    "runtime": 131,
+    "imdbId": "tt16411704",
+    "poster": "https://image.tmdb.org/t/p/w500/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4CcUgdiGe83MeqJW1NyJVmZqRrF.jpg",
+    "id": 144
   }
 ]

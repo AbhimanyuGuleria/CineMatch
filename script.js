@@ -421,7 +421,7 @@ const userProfiles = {
         name: "Action Lover",
         avatar: "🦸",
         preferences: ["Action", "Sci-Fi", "Thriller"],
-        movieIds: [4, 6, 7, 15, 25],
+        movieIds: [4, 6, 7, 106, 112, 126, 127], // Injected Dune, Batman, Spiderman, Deadpool!
         watchedCount: 156,
         avgRating: 4.3
     },
@@ -429,7 +429,7 @@ const userProfiles = {
         name: "Drama Enthusiast",
         avatar: "🎭",
         preferences: ["Drama", "Romance", "Music"],
-        movieIds: [1, 5, 12, 17, 19],
+        movieIds: [1, 5, 12, 107, 131], // Injected Oppenheimer, The Whale
         watchedCount: 203,
         avgRating: 4.5
     },
@@ -437,7 +437,7 @@ const userProfiles = {
         name: "Comedy Fan",
         avatar: "😄",
         preferences: ["Comedy", "Animation", "Fantasy"],
-        movieIds: [20, 22, 29, 5, 30],
+        movieIds: [20, 29, 109, 130, 133], // Injected Everything Everywhere, Mario, Inside Out 2
         watchedCount: 178,
         avgRating: 4.2
     },
@@ -445,7 +445,7 @@ const userProfiles = {
         name: "Sci-Fi Geek",
         avatar: "🚀",
         preferences: ["Sci-Fi", "Action", "Mystery"],
-        movieIds: [6, 7, 9, 14, 27],
+        movieIds: [6, 9, 115, 134, 142], // Injected Arrival, Tenet, The Creator
         watchedCount: 234,
         avgRating: 4.4
     },
@@ -453,7 +453,7 @@ const userProfiles = {
         name: "Romance Admirer",
         avatar: "💕",
         preferences: ["Romance", "Drama", "Fantasy"],
-        movieIds: [5, 19, 12, 20, 1],
+        movieIds: [19, 12, 141, 143, 1], // Injected Asteroid City, Challengers
         watchedCount: 145,
         avgRating: 4.6
     }
@@ -658,7 +658,19 @@ function openMovieModal(movieId) {
     const modalContent = document.getElementById('modal-content');
 
     const similarMovies = movieDatabase
-        .filter(m => m.id !== movieId && m.genres.some(g => movie.genres.includes(g)))
+        .filter(m => m.id !== movieId)
+        .map(m => {
+            const intersection = m.genres.filter(g => movie.genres.includes(g)).length;
+            const union = new Set([...m.genres, ...movie.genres]).size;
+            const genreSim = union === 0 ? 0 : (intersection / union);
+            
+            // Give bonuses to same director and similar release decade
+            const directorSim = (m.director && m.director === movie.director) ? 0.5 : 0;
+            const temporalSim = Math.exp(-Math.abs(m.year - movie.year) / 20) * 0.2;
+            
+            return { ...m, simScore: genreSim + directorSim + temporalSim };
+        })
+        .sort((a, b) => b.simScore - a.simScore)
         .slice(0, 4);
 
     modalContent.innerHTML = `
