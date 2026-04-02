@@ -1,5 +1,22 @@
-// Movie database with REAL TMDB movie posters
-const movieDatabase = [
+const API_URL = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname === '')
+    ? 'http://localhost:5000'
+    : 'https://your-render-backend-url.onrender.com'; // Update after deploying to Render
+
+let movieDatabase = [];
+
+// Fetch movies from backend API or use fallback
+async function loadMovies() {
+    try {
+        console.log('Fetching movies from:', `${API_URL}/api/movies`);
+        const response = await fetch(`${API_URL}/api/movies`);
+        if (!response.ok) throw new Error('Failed to fetch movies');
+        movieDatabase = await response.json();
+        console.log('Loaded', movieDatabase.length, 'movies from API');
+        initializeApp();
+    } catch (error) {
+        console.warn('Could not load from API, using fallback movies:', error);
+        // Fallback to hardcoded movies
+        movieDatabase = [
     {
         id: 1,
         title: "The Shawshank Redemption",
@@ -390,7 +407,13 @@ const movieDatabase = [
         runtime: 116,
         imdbId: "tt0088763"
     }
-];
+        ];
+        initializeApp();
+    }
+}
+
+// Initialize app when page loads
+document.addEventListener('DOMContentLoaded', loadMovies);
 
 // User preference profiles with more detailed data
 const userProfiles = {
@@ -440,31 +463,64 @@ const userProfiles = {
 let currentUserId = 1;
 let selectedMovie = null;
 
-// Simulate SVD recommendation algorithm
+// Content-Based K-Nearest Neighbors Recommendation Algorithm
 function getRecommendations(userId) {
     const profile = userProfiles[userId];
     if (!profile) return [];
 
-    const recommendedMovieIds = profile.movieIds;
+    const watchedMovieIds = new Set(profile.movieIds);
+    const watchedMovies = movieDatabase.filter(m => watchedMovieIds.has(m.id));
 
-    const recommendations = recommendedMovieIds.map((movieId, index) => {
-        const movie = movieDatabase.find(m => m.id === movieId);
-        if (!movie) return null;
+    // Calculate maximum accuracy recommendation score for each un-watched movie
+    const scoredMovies = movieDatabase
+        .filter(movie => !watchedMovieIds.has(movie.id))
+        .map(movie => {
+            let totalSimilarity = 0;
 
-        // Simulate predicted rating with variance
-        const variance = (Math.random() - 0.5) * 0.3;
-        const predictedRating = Math.min(5.0, Math.max(3.5, movie.baseRating + variance));
-        const matchScore = Math.floor(85 + Math.random() * 14);
+            // Compare candidate movie against EVERY movie the user has watched
+            watchedMovies.forEach(watched => {
+                // 1. Jaccard Similarity for Genres
+                const intersection = movie.genres.filter(g => watched.genres.includes(g)).length;
+                const union = new Set([...movie.genres, ...watched.genres]).size;
+                const genreSim = union === 0 ? 0 : intersection / union;
 
-        return {
+                // 2. Director Affinity Bonus
+                const directorSim = (movie.director && movie.director === watched.director) ? 1.0 : 0;
+
+                // 3. Temporal Exponential Decay (movies released in similar eras are more highly correlated)
+                const yearDiff = Math.abs(movie.year - watched.year);
+                const temporalSim = Math.exp(-yearDiff / 20);
+
+                // Weighted combination of features for this specific peer comparison
+                // Genres are the strongest predictor (70%), Time (20%), Director exact matches (10%)
+                const similarityScore = (genreSim * 0.7) + (temporalSim * 0.2) + (directorSim * 0.1);
+                totalSimilarity += similarityScore;
+            });
+
+            // Average the similarity profile across all watched movies
+            const avgSimilarity = totalSimilarity / Math.max(watchedMovies.length, 1);
+            
+            // Factor in the movie's global baseline rating as a quality bias (0.8 to 1.0 multiplier)
+            const ratingBias = 0.8 + (movie.baseRating / 25);
+            
+            const finalScore = avgSimilarity * ratingBias * 100;
+            const purePredictiveMatch = Math.min(99, Math.round(finalScore));
+
+            return {
+                ...movie,
+                score: finalScore,
+                matchScore: purePredictiveMatch,
+                predictedRating: ((movie.baseRating * 0.7) + ((finalScore / 100) * 1.5)).toFixed(1)
+            };
+        })
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 5) // Get top 5 recommendations
+        .map((movie, index) => ({
             ...movie,
-            predictedRating: predictedRating.toFixed(1),
-            matchScore: matchScore,
             rank: index + 1
-        };
-    }).filter(movie => movie !== null);
+        }));
 
-    return recommendations;
+    return scoredMovies;
 }
 
 // Generate star rating display
@@ -492,7 +548,7 @@ function createMovieCard(movie) {
             <div class="movie-rank">#${movie.rank}</div>
             <div class="match-score">${movie.matchScore}% Match</div>
             <div class="movie-poster-container">
-                <img src="${movie.poster}" alt="${movie.title}" class="movie-poster-img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x450/667eea/ffffff?text=${encodeURIComponent(movie.title)}'">
+                <img src="${movie.poster}" alt="${movie.title}" class="movie-poster-img" loading="lazy" onerror="this.onerror=null; this.src='https://placehold.co/300x450/667eea/ffffff.png?text=${encodeURIComponent(movie.title).replace(/'/g, '%27')}'">
                 <div class="poster-overlay">
                     <div class="overlay-content">
                         <p class="movie-description">${movie.description}</p>
@@ -520,7 +576,7 @@ function createMovieCard(movie) {
                 </div>
                 <div class="predicted-badge">
                     <span class="badge-icon">🎯</span>
-                    <span class="badge-text">SVD Predicted</span>
+                    <span class="badge-text">KNN Predicted</span>
                 </div>
             </div>
         </div>
@@ -544,7 +600,7 @@ function displayRecommendations(userId) {
     container.innerHTML = `
         <div class="loading-state">
             <div class="loading-spinner"></div>
-            <p>Running SVD Matrix Factorization...</p>
+            <p>Computing K-Nearest Neighbors...</p>
             <div class="loading-progress">
                 <div class="progress-bar"></div>
             </div>
@@ -610,7 +666,7 @@ function openMovieModal(movieId) {
         <div class="modal-body">
             <button class="modal-close" onclick="closeMovieModal()">&times;</button>
             <div class="modal-poster">
-                <img src="${movie.poster}" alt="${movie.title}">
+                <img src="${movie.poster}" alt="${movie.title}" onerror="this.onerror=null; this.src='https://placehold.co/300x450/667eea/ffffff.png?text=${encodeURIComponent(movie.title).replace(/'/g, '%27')}'">
             </div>
             <div class="modal-info">
                 <h2 class="modal-title">${movie.title}</h2>
@@ -701,7 +757,6 @@ function showNotification(message) {
 function filterByGenre(genre) {
     const container = document.getElementById('all-movies-container');
     if (!container) return;
-
     let filteredMovies = movieDatabase;
     if (genre !== 'all') {
         filteredMovies = movieDatabase.filter(m => m.genres.includes(genre));
@@ -709,7 +764,7 @@ function filterByGenre(genre) {
 
     container.innerHTML = filteredMovies.map((movie, index) => `
         <div class="small-movie-card" onclick="openMovieModal(${movie.id})" style="animation-delay: ${index * 50}ms">
-            <img src="${movie.poster}" alt="${movie.title}" loading="lazy">
+            <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.onerror=null; this.src='https://placehold.co/200x300/667eea/ffffff.png?text=${encodeURIComponent(movie.title).replace(/'/g, '%27')}'">
             <div class="small-card-overlay">
                 <div class="small-card-title">${movie.title}</div>
                 <div class="small-card-year">${movie.year}</div>
@@ -718,10 +773,15 @@ function filterByGenre(genre) {
     `).join('');
 }
 
-// Event listeners
-document.addEventListener('DOMContentLoaded', () => {
+// Initialize the application
+function initializeApp() {
     const userSelect = document.getElementById('user-select');
     const getRecommendationsBtn = document.getElementById('get-recommendations');
+
+    if (!userSelect || !getRecommendationsBtn) return;
+
+    // Display initial recommendations for first user
+    displayRecommendations(1);
 
     // Get recommendations on button click
     getRecommendationsBtn.addEventListener('click', () => {
@@ -738,11 +798,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1200);
     });
 
+    // Load all movies section
+    loadAllMovies();
+}
+
+// Event listeners
+document.addEventListener('DOMContentLoaded', () => {
     // User selection change
-    userSelect.addEventListener('change', () => {
-        const userId = parseInt(userSelect.value);
-        currentUserId = userId;
-        displayRecommendations(userId);
+    document.addEventListener('change', (e) => {
+        if (e.target.id === 'user-select') {
+            const userId = parseInt(e.target.value);
+            currentUserId = userId;
+            displayRecommendations(userId);
+        }
     });
 
     // Close modal on escape key
@@ -788,9 +856,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Initialize with user 1
-    displayRecommendations(1);
-
     // Load all movies section
     loadAllMovies();
 });
@@ -802,7 +867,7 @@ function loadAllMovies() {
 
     container.innerHTML = movieDatabase.slice(0, 12).map((movie, index) => `
         <div class="small-movie-card" onclick="openMovieModal(${movie.id})" style="animation-delay: ${index * 50}ms">
-            <img src="${movie.poster}" alt="${movie.title}" loading="lazy">
+            <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.onerror=null; this.src='https://placehold.co/200x300/667eea/ffffff.png?text=${encodeURIComponent(movie.title).replace(/'/g, '%27')}'">
             <div class="small-card-overlay">
                 <div class="small-card-title">${movie.title}</div>
                 <div class="small-card-year">${movie.year}</div>

@@ -1,0 +1,1759 @@
+[
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
+    "baseRating": 4.8,
+    "description": "Framed in the 1940s for a double murder, banker Andy Dufresne begins a new life at Shawshank prison.",
+    "director": "Frank Darabont",
+    "runtime": 142,
+    "imdbId": "tt0111161"
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "year": 1972,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+    "baseRating": 4.7,
+    "description": "A chronicle of the Corleone crime family from 1945 to 1955.",
+    "director": "Francis Ford Coppola",
+    "runtime": 175,
+    "imdbId": "tt0068646"
+  },
+  {
+    "id": 3,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "baseRating": 4.6,
+    "description": "Intertwining stories of Los Angeles criminals, a boxer, gangsters and their wives.",
+    "director": "Quentin Tarantino",
+    "runtime": 154,
+    "imdbId": "tt0110912"
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    "baseRating": 4.7,
+    "description": "Batman must battle a terrorist known as Joker to protect Gotham.",
+    "director": "Christopher Nolan",
+    "runtime": 152,
+    "imdbId": "tt0468569"
+  },
+  {
+    "id": 5,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
+    "baseRating": 4.5,
+    "description": "A man with low IQ accomplishes great things and changes the course of history.",
+    "director": "Robert Zemeckis",
+    "runtime": 142,
+    "imdbId": "tt0109830"
+  },
+  {
+    "id": 6,
+    "title": "Inception",
+    "year": 2010,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+    "baseRating": 4.6,
+    "description": "A skilled thief infiltrates the dreams of corporate executives.",
+    "director": "Christopher Nolan",
+    "runtime": 148,
+    "imdbId": "tt1375666"
+  },
+  {
+    "id": 7,
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fNG7i7RqMErkcqhohV2a6cV1Ehy.jpg",
+    "baseRating": 4.5,
+    "description": "A hacker joins a group of underground insurgents fighting machines that rule the Earth.",
+    "director": "The Wachowskis",
+    "runtime": 136,
+    "imdbId": "tt0133093"
+  },
+  {
+    "id": 8,
+    "title": "Goodfellas",
+    "year": 1990,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sw7mordbZxgITU877yTpZCud90M.jpg",
+    "baseRating": 4.6,
+    "description": "The rise and fall of Henry Hill, a mobster who becomes an FBI informant.",
+    "director": "Martin Scorsese",
+    "runtime": 145,
+    "imdbId": "tt0099685"
+  },
+  {
+    "id": 9,
+    "title": "Interstellar",
+    "year": 2014,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+    "baseRating": 4.5,
+    "description": "A team of explorers travel through a wormhole to save humanity.",
+    "director": "Christopher Nolan",
+    "runtime": 169,
+    "imdbId": "tt0816692"
+  },
+  {
+    "id": 10,
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mfwq2nMBzArzQ7Y9RKE8SKeeTkg.jpg",
+    "baseRating": 4.5,
+    "description": "An FBI trainee seeks help from an incarcerated cannibal serial killer.",
+    "director": "Jonathan Demme",
+    "runtime": 119,
+    "imdbId": "tt0102926"
+  },
+  {
+    "id": 11,
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bdD39MpSVhKjxarTxLSfX6baoMP.jpg",
+    "baseRating": 4.6,
+    "description": "Soldiers storm Normandy beaches to find and bring home Private Ryan.",
+    "director": "Steven Spielberg",
+    "runtime": 169,
+    "imdbId": "tt0120815"
+  },
+  {
+    "id": 12,
+    "title": "The Green Mile",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Crime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+    "baseRating": 4.5,
+    "description": "A supernatural tale set on death row where a man possesses healing powers.",
+    "director": "Frank Darabont",
+    "runtime": 189,
+    "imdbId": "tt0120689"
+  },
+  {
+    "id": 13,
+    "title": "Se7en",
+    "year": 1995,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sKCr78MXSLixwmZ8DyDrqljQ8h.jpg",
+    "baseRating": 4.5,
+    "description": "Two detectives hunt a serial killer whose crimes are based on the seven deadly sins.",
+    "director": "David Fincher",
+    "runtime": 127,
+    "imdbId": "tt0114369"
+  },
+  {
+    "id": 14,
+    "title": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dlovsLkqPCMKfqNVvXOvbOHGAN6.jpg",
+    "baseRating": 4.4,
+    "description": "Two magicians engage in a life-long battle for supremacy.",
+    "director": "Christopher Nolan",
+    "runtime": 130,
+    "imdbId": "tt0482571"
+  },
+  {
+    "id": 15,
+    "title": "Gladiator",
+    "year": 2000,
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8mIFqVuGWGvMjKyqBmsNGpbj2Vs.jpg",
+    "baseRating": 4.5,
+    "description": "A former Roman general fights his way back to freedom and revenge.",
+    "director": "Ridley Scott",
+    "runtime": 155,
+    "imdbId": "tt0172495"
+  },
+  {
+    "id": 16,
+    "title": "The Departed",
+    "year": 2006,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8od5Wra8aq1YgA5yau9VLRvLEkL.jpg",
+    "baseRating": 4.4,
+    "description": "Police send an undercover cop to infiltrate an Irish gang.",
+    "director": "Martin Scorsese",
+    "runtime": 151,
+    "imdbId": "tt0407887"
+  },
+  {
+    "id": 17,
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6bbZ6XyvgfjhQwbplnUh1LSj1ky.jpg",
+    "baseRating": 4.5,
+    "description": "A talented drummer pursues perfection under a ruthless instructor.",
+    "director": "Damien Chazelle",
+    "runtime": 107,
+    "imdbId": "tt2582802"
+  },
+  {
+    "id": 18,
+    "title": "The Shining",
+    "year": 1980,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9fgh3Ns2II9IAZBI2gVtXGK1UdD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mmd1HnuvAzFc4iuVJcnBrhDNEKb.jpg",
+    "baseRating": 4.4,
+    "description": "A family's descent into madness at an isolated hotel during winter.",
+    "director": "Stanley Kubrick",
+    "runtime": 144,
+    "imdbId": "tt0081505"
+  },
+  {
+    "id": 19,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7y3iLm4FiXyKJxFzl9HvVFT0jWB.jpg",
+    "baseRating": 4.4,
+    "description": "A man seeks to erase memories of his girlfriend from his mind.",
+    "director": "Michel Gondry",
+    "runtime": 108,
+    "imdbId": "tt0338013"
+  },
+  {
+    "id": 20,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/Ab8mkHmkYADjU7wQiOkia9BzGvS.jpg",
+    "baseRating": 4.6,
+    "description": "A girl becomes trapped in a mysterious bathhouse filled with spirits.",
+    "director": "Hayao Miyazaki",
+    "runtime": 125,
+    "imdbId": "tt0245429"
+  },
+  {
+    "id": 21,
+    "title": "Parasite",
+    "year": 2019,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+    "baseRating": 4.5,
+    "description": "A poor family schemes their way into a wealthy household.",
+    "director": "Bong Joon-ho",
+    "runtime": 132,
+    "imdbId": "tt6751668"
+  },
+  {
+    "id": 22,
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7c5sCaAKkGqguF0XWJY8eHvdwHq.jpg",
+    "baseRating": 4.3,
+    "description": "The adventures of a legendary concierge and his lobby boy.",
+    "director": "Wes Anderson",
+    "runtime": 100,
+    "imdbId": "tt2278388"
+  },
+  {
+    "id": 23,
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "genres": [
+      "War",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aVzPvCDH6P7j9cOMfJbk7S7S3Xf.jpg",
+    "baseRating": 4.4,
+    "description": "Jewish soldiers plot to assassinate Nazi leaders during WWII.",
+    "director": "Quentin Tarantino",
+    "runtime": 153,
+    "imdbId": "tt0361748"
+  },
+  {
+    "id": 24,
+    "title": "Django Unchained",
+    "year": 2012,
+    "genres": [
+      "Western",
+      "Drama",
+      "Action"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2oZklIzUbvZXXzIFzv7Hi68d6xf.jpg",
+    "baseRating": 4.4,
+    "description": "A freed slave and bounty hunter rescue his wife from a plantation owner.",
+    "director": "Quentin Tarantino",
+    "runtime": 165,
+    "imdbId": "tt1853728"
+  },
+  {
+    "id": 25,
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/phszHPFVhPHhMZgo0fWTKBDQsJA.jpg",
+    "baseRating": 4.5,
+    "description": "Riders chase each other across a post-apocalyptic desert wasteland.",
+    "director": "George Miller",
+    "runtime": 120,
+    "imdbId": "tt1392190"
+  },
+  {
+    "id": 26,
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+    "baseRating": 4.5,
+    "description": "A man forms an underground fighting club as an alternate life.",
+    "director": "David Fincher",
+    "runtime": 139,
+    "imdbId": "tt0137523"
+  },
+  {
+    "id": 27,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "baseRating": 4.4,
+    "description": "The Avengers must undo the damage caused by Thanos.",
+    "director": "Anthony & Joe Russo",
+    "runtime": 181,
+    "imdbId": "tt4154796"
+  },
+  {
+    "id": 28,
+    "title": "Joker",
+    "year": 2019,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n6bUvigpRFqSwmPp1m2YMDNqKAo.jpg",
+    "baseRating": 4.3,
+    "description": "A failed comedian's descent into madness and violence in Gotham.",
+    "director": "Todd Phillips",
+    "runtime": 122,
+    "imdbId": "tt7286456"
+  },
+  {
+    "id": 29,
+    "title": "The Lion King",
+    "year": 1994,
+    "genres": [
+      "Animation",
+      "Family",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyDrqljQ8h3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
+    "baseRating": 4.5,
+    "description": "A young lion prince reclaims his throne after his uncle's betrayal.",
+    "director": "Roger Allers & Rob Minkoff",
+    "runtime": 89,
+    "imdbId": "tt0110357"
+  },
+  {
+    "id": 30,
+    "title": "Back to the Future",
+    "year": 1985,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xq6hXfBpAGsEh2sqSSk5SPOsBhj.jpg",
+    "baseRating": 4.5,
+    "description": "A teen is sent back to 1955 and must reunite his parents.",
+    "director": "Robert Zemeckis",
+    "runtime": 116,
+    "imdbId": "tt0088763"
+  },
+  {
+    "id": 31,
+    "title": "The Avengers",
+    "year": 2012,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+    "baseRating": 4.4,
+    "description": "Superheroes unite to save Earth from an alien invasion.",
+    "director": "Joss Whedon",
+    "runtime": 143,
+    "imdbId": "tt0848228"
+  },
+  {
+    "id": 32,
+    "title": "Titanic",
+    "year": 1997,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qBChUbS8ksbJoPTfZpogsnxG5tY.jpg",
+    "baseRating": 4.3,
+    "description": "An aristocrat and artist fall in love aboard the ill-fated RMS Titanic.",
+    "director": "James Cameron",
+    "runtime": 194,
+    "imdbId": "tt0120338"
+  },
+  {
+    "id": 33,
+    "title": "Avatar",
+    "year": 2009,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
+    "baseRating": 4.3,
+    "description": "A paraplegic Marine discovers a new world on the moon Pandora.",
+    "director": "James Cameron",
+    "runtime": 162,
+    "imdbId": "tt0499549"
+  },
+  {
+    "id": 34,
+    "title": "The Lord of the Rings: Fellowship",
+    "year": 2001,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+    "baseRating": 4.6,
+    "description": "A hobbit must take a ring to destroy it in Mount Doom.",
+    "director": "Peter Jackson",
+    "runtime": 178,
+    "imdbId": "tt0120737"
+  },
+  {
+    "id": 35,
+    "title": "The Lord of the Rings: Return of the King",
+    "year": 2003,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+    "baseRating": 4.5,
+    "description": "The final battle for Middle-earth unfolds as Frodo nears Mount Doom.",
+    "director": "Peter Jackson",
+    "runtime": 201,
+    "imdbId": "tt0167260"
+  },
+  {
+    "id": 36,
+    "title": "Star Wars: A New Hope",
+    "year": 1977,
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yUiXA68FfQeA8cRBhd0Ao0jIRZt.jpg",
+    "baseRating": 4.5,
+    "description": "Rebels fight to save the galaxy from the Empire.",
+    "director": "George Lucas",
+    "runtime": 121,
+    "imdbId": "tt0076759"
+  },
+  {
+    "id": 37,
+    "title": "Star Wars: The Empire Strikes Back",
+    "year": 1980,
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aJCtkxLLzkk1pECehVjKHA2lBgw.jpg",
+    "baseRating": 4.5,
+    "description": "Luke trains with Yoda as the Empire hunts the Rebels.",
+    "director": "Irvin Kershner",
+    "runtime": 124,
+    "imdbId": "tt0080684"
+  },
+  {
+    "id": 38,
+    "title": "Star Wars: Return of the Jedi",
+    "year": 1983,
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/jQYlydvHm3kUix1f8prMucrplhm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ziECpBRIyclmBNaFSWlvCfsKbMD.jpg",
+    "baseRating": 4.4,
+    "description": "The Rebellion makes a final stand to defeat the Empire.",
+    "director": "Richard Marquhardt",
+    "runtime": 131,
+    "imdbId": "tt0086190"
+  },
+  {
+    "id": 39,
+    "title": "Jaws",
+    "year": 1975,
+    "genres": [
+      "Thriller",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tjbLSFwi0I3phZwh8zoHWNfbsEp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
+    "baseRating": 4.4,
+    "description": "A police chief hunts a massive great white shark.",
+    "director": "Steven Spielberg",
+    "runtime": 124,
+    "imdbId": "tt0073195"
+  },
+  {
+    "id": 40,
+    "title": "The Conjuring",
+    "year": 2013,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aQCCpAIdWAp6wyFgjMry4okwrZo.jpg",
+    "baseRating": 4.4,
+    "description": "Paranormal investigators help a family terrorized by a dark presence.",
+    "director": "James Wan",
+    "runtime": 112,
+    "imdbId": "tt1457767"
+  },
+  {
+    "id": 41,
+    "title": "The Exorcist",
+    "year": 1973,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xcjJ5khg2yzOa282mza39Lbrm7j.jpg",
+    "baseRating": 4.4,
+    "description": "A girl becomes demonically possessed and priests attempt an exorcism.",
+    "director": "William Friedkin",
+    "runtime": 132,
+    "imdbId": "tt0070047"
+  },
+  {
+    "id": 42,
+    "title": "Psycho",
+    "year": 1960,
+    "genres": [
+      "Thriller",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+    "baseRating": 4.4,
+    "description": "A woman checks into an isolated motel run by a disturbed man.",
+    "director": "Alfred Hitchcock",
+    "runtime": 109,
+    "imdbId": "tt0054215"
+  },
+  {
+    "id": 43,
+    "title": "The Notebook",
+    "year": 2004,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zdXnJqBaGFVtLoPNuMeKfEYUViZ.jpg",
+    "baseRating": 4.1,
+    "description": "Two lovers from different social classes reconnect years later.",
+    "director": "Nick Cassavetes",
+    "runtime": 123,
+    "imdbId": "tt0332280"
+  },
+  {
+    "id": 44,
+    "title": "The Proposal",
+    "year": 2009,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6stnAm1wSek8ZrislwK4xGTyCnt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ojgXOhVi9Yk8irDpRfDkIzdD1LK.jpg",
+    "baseRating": 4.1,
+    "description": "A boss proposes to her assistant to avoid deportation.",
+    "director": "Anne Fletcher",
+    "runtime": 108,
+    "imdbId": "tt1041465"
+  },
+  {
+    "id": 45,
+    "title": "Toy Story",
+    "year": 1995,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+    "baseRating": 4.4,
+    "description": "A cowboy doll faces replacement by a new spaceman figure.",
+    "director": "John Lasseter",
+    "runtime": 81,
+    "imdbId": "tt0114709"
+  },
+  {
+    "id": 46,
+    "title": "Finding Nemo",
+    "year": 2003,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eCynaAOgYYiw5yN5lBwz3IxqvaW.jpg",
+    "baseRating": 4.4,
+    "description": "A clownfish searches for his captured son across the ocean.",
+    "director": "Andrew Stanton",
+    "runtime": 100,
+    "imdbId": "tt0266543"
+  },
+  {
+    "id": 47,
+    "title": "The Incredibles",
+    "year": 2004,
+    "genres": [
+      "Animation",
+      "Action",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lxwzY9vNwjDgxWKt3zZ6zcU6rEJ.jpg",
+    "baseRating": 4.3,
+    "description": "A superhero family must stop a mad scientist's plans.",
+    "director": "Brad Bird",
+    "runtime": 115,
+    "imdbId": "tt0317705"
+  },
+  {
+    "id": 48,
+    "title": "UP",
+    "year": 2009,
+    "genres": [
+      "Animation",
+      "Family",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+    "baseRating": 4.4,
+    "description": "An elderly man and a boy embark on an adventure to South America.",
+    "director": "Pete Docter",
+    "runtime": 96,
+    "imdbId": "tt0369610"
+  },
+  {
+    "id": 49,
+    "title": "Frozen",
+    "year": 2013,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/itAKcobTYGpYT8Phwjd8c9hleTo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg",
+    "baseRating": 4.2,
+    "description": "Sisters must stop an eternal winter from destroying the kingdom.",
+    "director": "Chris Buck",
+    "runtime": 102,
+    "imdbId": "tt2294629"
+  },
+  {
+    "id": 50,
+    "title": "Tangled",
+    "year": 2010,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ym7Kst6a4uodryxqbGOxmewF235.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cWczNud8Y8i8ab0Z4bxos4myWYO.jpg",
+    "baseRating": 4.2,
+    "description": "A long-haired princess escapes her tower and finds true love.",
+    "director": "Nathan Greno",
+    "runtime": 100,
+    "imdbId": "tt0745185"
+  },
+  {
+    "id": 51,
+    "title": "Coco",
+    "year": 2017,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+    "baseRating": 4.4,
+    "description": "A boy travels to the Land of the Dead to find his great-great-grandfather.",
+    "director": "Lee Unkrich",
+    "runtime": 105,
+    "imdbId": "tt5311514"
+  },
+  {
+    "id": 52,
+    "title": "Moana",
+    "year": 2016,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kiOlBfrTDiI6dUl0WEkOr2oP6Zj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ogv0eTxwCVcrfKYsl2GKH4hNHJL.jpg",
+    "baseRating": 4.3,
+    "description": "An island girl is chosen to save her people by crossing the ocean.",
+    "director": "Ron Clements",
+    "runtime": 107,
+    "imdbId": "tt3089332"
+  },
+  {
+    "id": 53,
+    "title": "Zootopia",
+    "year": 2016,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
+    "baseRating": 4.3,
+    "description": "A cop rabbit and con artist fox solve a crime in a city of animals.",
+    "director": "Byron Howard",
+    "runtime": 108,
+    "imdbId": "tt2948356"
+  },
+  {
+    "id": 54,
+    "title": "Inside Out",
+    "year": 2015,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/o3i6AfTcWAuNvzAUV3q5lOmi6Gx.jpg",
+    "baseRating": 4.2,
+    "description": "A girl's emotions guide her through a move to a new city.",
+    "director": "Pete Docter",
+    "runtime": 98,
+    "imdbId": "tt2096673"
+  },
+  {
+    "id": 55,
+    "title": "The Hunger Games",
+    "year": 2012,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3sndNmvdF0R8AeyCmVoNv8LKtNy.jpg",
+    "baseRating": 4.1,
+    "description": "A girl volunteers for a televised fight to the death.",
+    "director": "Gary Ross",
+    "runtime": 142,
+    "imdbId": "tt1392170"
+  },
+  {
+    "id": 56,
+    "title": "Divergent",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aNh4Q3iuPKDMPi2SL7GgOpiLukX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bgkFOoXEQMRjKkCvgoj7smdGbuh.jpg",
+    "baseRating": 4,
+    "description": "A girl discovers she is Divergent and must hide her status to survive.",
+    "director": "Neil Burger",
+    "runtime": 139,
+    "imdbId": "tt1840645"
+  },
+  {
+    "id": 57,
+    "title": "The Maze Runner",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eTlcNXGv32zkVI7ZDHhfeaKHXKQ.jpg",
+    "baseRating": 4.1,
+    "description": "Teens trapped in a deadly maze must find a way out.",
+    "director": "Wes Ball",
+    "runtime": 113,
+    "imdbId": "tt1790864"
+  },
+  {
+    "id": 58,
+    "title": "Ready Player One",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5a7lMDn3nAj2ByO0X1fg6BhUphR.jpg",
+    "baseRating": 4.1,
+    "description": "Players compete in a virtual reality treasure hunt.",
+    "director": "Steven Spielberg",
+    "runtime": 140,
+    "imdbId": "tt5109280"
+  },
+  {
+    "id": 59,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/maFjKnJ62hDQ9E66dKqDZgbUy0H.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mzFjAVLdZAD6UDT5BMRItHL5IVf.jpg",
+    "baseRating": 4.3,
+    "description": "Scientists create a theme park with cloned dinosaurs that escape.",
+    "director": "Steven Spielberg",
+    "runtime": 127,
+    "imdbId": "tt0107290"
+  },
+  {
+    "id": 60,
+    "title": "The Terminator",
+    "year": 1984,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5BZtN173AXqReBJTxE2ZikBDCl7.jpg",
+    "baseRating": 4.3,
+    "description": "A cyborg assassin travels back in time to kill Sarah Connor.",
+    "director": "James Cameron",
+    "runtime": 107,
+    "imdbId": "tt0088247"
+  },
+  {
+    "id": 61,
+    "title": "Predator",
+    "year": 1987,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/otkJlfjB7zJ5h34FEIfemenMbCy.jpg",
+    "baseRating": 4.1,
+    "description": "Elite soldiers face an extraterrestrial hunter in the jungle.",
+    "director": "John McTiernan",
+    "runtime": 107,
+    "imdbId": "tt0093773"
+  },
+  {
+    "id": 62,
+    "title": "Alien",
+    "year": 1979,
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+    "baseRating": 4.3,
+    "description": "The crew of a spaceship encounters a deadly lifeform.",
+    "director": "Ridley Scott",
+    "runtime": 117,
+    "imdbId": "tt0078748"
+  },
+  {
+    "id": 63,
+    "title": "The Fifth Element",
+    "year": 1997,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fPtlCO1yQtnoLHOwKtWz7db6RGU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jW21PoKwqs79wk6bfiYezox63mK.jpg",
+    "baseRating": 4.1,
+    "description": "A taxi driver and diva save the world from destruction.",
+    "director": "Luc Besson",
+    "runtime": 126,
+    "imdbId": "tt0119116"
+  },
+  {
+    "id": 64,
+    "title": "Blade Runner",
+    "year": 1982,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qr7dUqleMRd0VgollazbmyP9XjI.jpg",
+    "baseRating": 4.1,
+    "description": "A blade runner hunts down escaped replicants in Los Angeles.",
+    "director": "Ridley Scott",
+    "runtime": 117,
+    "imdbId": "tt0083658"
+  },
+  {
+    "id": 65,
+    "title": "Total Recall",
+    "year": 1990,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/x2wOlXuK4NzPDQ0OBZiJjNNOp6Y.jpg",
+    "baseRating": 3.9,
+    "description": "A man questions his reality and memories in a dystopian future.",
+    "director": "Paul Verhoeven",
+    "runtime": 113,
+    "imdbId": "tt0100354"
+  },
+  {
+    "id": 66,
+    "title": "RoboCop",
+    "year": 1987,
+    "genres": [
+      "Action",
+      "Crime",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/esmAU0fCO28FbS6bUBKLAzJrohZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vMGkly71Jm2KwHN407mxheMGUYR.jpg",
+    "baseRating": 4,
+    "description": "A murdered cop is resurrected as a cyborg law enforcer.",
+    "director": "Paul Verhoeven",
+    "runtime": 102,
+    "imdbId": "tt0093870"
+  },
+  {
+    "id": 67,
+    "title": "Ghostbusters",
+    "year": 1984,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/c6yfABGVKuB5cjoOwdX4AJMlzUz.jpg",
+    "baseRating": 4.1,
+    "description": "Parapsychologists hunt ghosts in Manhattan.",
+    "director": "Ivan Reitman",
+    "runtime": 105,
+    "imdbId": "tt0087332"
+  },
+  {
+    "id": 68,
+    "title": "Gremlins",
+    "year": 1984,
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
+    "baseRating": 4.1,
+    "description": "A mysterious creature spawns dangerous monsters.",
+    "director": "Joe Dante",
+    "runtime": 106,
+    "imdbId": "tt0087363"
+  },
+  {
+    "id": 69,
+    "title": "Back to the Future II",
+    "year": 1989,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w6tPctxWAsHoQXeKxxNOT6lYKpx.jpg",
+    "baseRating": 4.4,
+    "description": "Marty travels further back to fix his parents' first meeting.",
+    "director": "Robert Zemeckis",
+    "runtime": 111,
+    "imdbId": "tt0096874"
+  },
+  {
+    "id": 70,
+    "title": "The Goonies",
+    "year": 1985,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5qsyqA7FeYRymBmNbPBqBgqWPO4.jpg",
+    "baseRating": 4.1,
+    "description": "Kids go on an adventure to save their homes from foreclosure.",
+    "director": "Richard Donner",
+    "runtime": 114,
+    "imdbId": "tt0089218"
+  },
+  {
+    "id": 71,
+    "title": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "genres": [
+      "Family",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mXLVA0YL6tcXi6SJSuAh9ONXFj5.jpg",
+    "baseRating": 4.3,
+    "description": "A boy helps a friendly alien return to his home planet.",
+    "director": "Steven Spielberg",
+    "runtime": 115,
+    "imdbId": "tt0083866"
+  },
+  {
+    "id": 72,
+    "title": "Raiders of the Lost Ark",
+    "year": 1981,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zPACwR32amTNvzId9qyapCWXYDJ.jpg",
+    "baseRating": 4.3,
+    "description": "An archaeologist races to find the Ark of the Covenant before Nazis.",
+    "director": "Steven Spielberg",
+    "runtime": 115,
+    "imdbId": "tt0082971"
+  },
+  {
+    "id": 73,
+    "title": "Tron: Legacy",
+    "year": 2010,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8Nc6R8k7bG8frSiDJo0oLucF7dN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uUa6jgSr5BQpcBhhaz1PV1JhSa4.jpg",
+    "baseRating": 4,
+    "description": "A man enters the digital world created by his father.",
+    "director": "Joseph Kosinski",
+    "runtime": 125,
+    "imdbId": "tt1104001"
+  },
+  {
+    "id": 74,
+    "title": "Doctor Strange",
+    "year": 2016,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xf8PbyQcR5ucXErmZNzdKR0s8ya.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3zvZ699gMW2RhWc0GisIukzq0Ls.jpg",
+    "baseRating": 4.2,
+    "description": "A surgeon learns magic from a sorcerer.",
+    "director": "Scott Derrickson",
+    "runtime": 115,
+    "imdbId": "tt1677338"
+  },
+  {
+    "id": 75,
+    "title": "Wonder Woman",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AaABt75ZzfMGrscUR2seabz4PEX.jpg",
+    "baseRating": 4.1,
+    "description": "An Amazon princess fights in World War I.",
+    "director": "Patty Jenkins",
+    "runtime": 141,
+    "imdbId": "tt0451279"
+  },
+  {
+    "id": 76,
+    "title": "Captain America: Winter Soldier",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg",
+    "baseRating": 4.2,
+    "description": "Captain America uncovers conspiracy within his own organization.",
+    "director": "Anthony & Joe Russo",
+    "runtime": 136,
+    "imdbId": "tt1843866"
+  },
+  {
+    "id": 77,
+    "title": "Deadpool",
+    "year": 2016,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/en971MEXui9diirXlogOrPKmsEn.jpg",
+    "baseRating": 4.1,
+    "description": "A wisecracking mercenary becomes immortal but hideously disfigured.",
+    "director": "Tim Miller",
+    "runtime": 108,
+    "imdbId": "tt1431045"
+  },
+  {
+    "id": 78,
+    "title": "Black Panther",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/19Ed4XgjahPm4U8JT7SnntERIlt.jpg",
+    "baseRating": 4.1,
+    "description": "The King of Wakanda must defend his technologically advanced nation.",
+    "director": "Ryan Coogler",
+    "runtime": 134,
+    "imdbId": "tt1825683"
+  },
+  {
+    "id": 79,
+    "title": "Thor: Ragnarok",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+    "baseRating": 4.2,
+    "description": "Thor must face his sister and a fire giant to save Asgard.",
+    "director": "Taika Waititi",
+    "runtime": 130,
+    "imdbId": "tt3501632"
+  },
+  {
+    "id": 80,
+    "title": "Iron Man",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+    "baseRating": 4.2,
+    "description": "A billionaire builds a powered suit to become a superhero.",
+    "director": "Jon Favreau",
+    "runtime": 126,
+    "imdbId": "tt0371746"
+  },
+  {
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "baseRating": 4.5,
+    "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
+    "director": "Gus Van Sant",
+    "runtime": 126,
+    "imdbId": "tt0119217",
+    "poster": "https://image.tmdb.org/t/p/w500/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xj1Sv1xm4Y0ydBueGuf10Y9qM0O.jpg",
+    "id": 81
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.6,
+    "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "director": "Steven Spielberg",
+    "runtime": 127,
+    "imdbId": "tt0107290",
+    "poster": "https://image.tmdb.org/t/p/w500/maFjKnJ62hDQ9E66dKqDZgbUy0H.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mzFjAVLdZAD6UDT5BMRItHL5IVf.jpg",
+    "id": 82
+  },
+  {
+    "title": "The Truman Show",
+    "year": 1998,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "baseRating": 4.4,
+    "description": "An insurance salesman discovers his whole life is actually a reality TV show.",
+    "director": "Peter Weir",
+    "runtime": 103,
+    "imdbId": "tt0120382",
+    "poster": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aCHn2TXYJfzPXQKA6r9mKPbMlUB.jpg",
+    "id": 83
+  },
+  {
+    "title": "The Terminator",
+    "year": 1984,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.3,
+    "description": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",
+    "director": "James Cameron",
+    "runtime": 107,
+    "imdbId": "tt0088247",
+    "poster": "https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5BZtN173AXqReBJTxE2ZikBDCl7.jpg",
+    "id": 84
+  },
+  {
+    "title": "Back to the Future Part II",
+    "year": 1989,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.1,
+    "description": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.",
+    "director": "Robert Zemeckis",
+    "runtime": 108,
+    "imdbId": "tt0096895",
+    "poster": "https://image.tmdb.org/t/p/w500/hQq8xZe5uLjFzSBt4LanNP7SQjl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w6tPctxWAsHoQXeKxxNOT6lYKpx.jpg",
+    "id": 85
+  },
+  {
+    "title": "Indiana Jones and the Raiders of the Lost Ark",
+    "year": 1981,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "baseRating": 4.6,
+    "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
+    "director": "Steven Spielberg",
+    "runtime": 115,
+    "imdbId": "tt0082971",
+    "poster": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zPACwR32amTNvzId9qyapCWXYDJ.jpg",
+    "id": 86
+  },
+  {
+    "title": "Alien",
+    "year": 1979,
+    "genres": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.7,
+    "description": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+    "director": "Ridley Scott",
+    "runtime": 117,
+    "imdbId": "tt0078748",
+    "poster": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+    "id": 87
+  },
+  {
+    "title": "The Breakfast Club",
+    "year": 1985,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "baseRating": 4.2,
+    "description": "Five high school students meet in Saturday detention and discover how they have a lot more in common than they thought.",
+    "director": "John Hughes",
+    "runtime": 97,
+    "imdbId": "tt0088847",
+    "poster": "https://image.tmdb.org/t/p/w500/gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/s5HDOmFZaPVQFjk9BxxDrLu1T0g.jpg",
+    "id": 88
+  },
+  {
+    "title": "Die Hard",
+    "year": 1988,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "baseRating": 4.5,
+    "description": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+    "director": "John McTiernan",
+    "runtime": 132,
+    "imdbId": "tt0095016",
+    "poster": "https://image.tmdb.org/t/p/w500/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bvk2AAH64lP2YZs02Q3jskfHT8j.jpg",
+    "id": 89
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.3,
+    "description": "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.",
+    "director": "Steven Spielberg",
+    "runtime": 115,
+    "imdbId": "tt0083866",
+    "poster": "https://image.tmdb.org/t/p/w500/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mXLVA0YL6tcXi6SJSuAh9ONXFj5.jpg",
+    "id": 90
+  },
+  {
+    "title": "Ghostbusters",
+    "year": 1984,
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Sc-Fi"
+    ],
+    "baseRating": 4.2,
+    "description": "Three former parapsychology professors set up shop as a unique ghost removal service.",
+    "director": "Ivan Reitman",
+    "runtime": 105,
+    "imdbId": "tt0087332",
+    "poster": "https://image.tmdb.org/t/p/w500/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/c6yfABGVKuB5cjoOwdX4AJMlzUz.jpg",
+    "id": 91
+  },
+  {
+    "title": "Blade Runner",
+    "year": 1982,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.4,
+    "description": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",
+    "director": "Ridley Scott",
+    "runtime": 117,
+    "imdbId": "tt0083658",
+    "poster": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qr7dUqleMRd0VgollazbmyP9XjI.jpg",
+    "id": 92
+  },
+  {
+    "title": "Ferris Bueller's Day Off",
+    "year": 1986,
+    "genres": [
+      "Comedy"
+    ],
+    "baseRating": 4.1,
+    "description": "A high school wise guy is determined to have a day off from school, despite what the Principal thinks of that.",
+    "director": "John Hughes",
+    "runtime": 103,
+    "imdbId": "tt0091042",
+    "poster": "https://image.tmdb.org/t/p/w500/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/leehjwM57DKJ79XMUll4oAF0kin.jpg",
+    "id": 93
+  },
+  {
+    "title": "The Goonies",
+    "year": 1985,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "baseRating": 4,
+    "description": "A group of young misfits called The Goonies discover an ancient map and set out on an adventure to find a legendary pirate's long-lost treasure.",
+    "director": "Richard Donner",
+    "runtime": 114,
+    "imdbId": "tt0089218",
+    "poster": "https://image.tmdb.org/t/p/w500/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5qsyqA7FeYRymBmNbPBqBgqWPO4.jpg",
+    "id": 94
+  },
+  {
+    "title": "Groundhog Day",
+    "year": 1993,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "baseRating": 4.3,
+    "description": "A narcissistic, self-centered weatherman finds himself in a time loop on Groundhog Day, and the day keeps repeating until he gets it right.",
+    "director": "Harold Ramis",
+    "runtime": 101,
+    "imdbId": "tt0107048",
+    "poster": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ttBydD0SynC0TMkW3AcnmsySkLp.jpg",
+    "id": 95
+  },
+  {
+    "title": "Rocky",
+    "year": 1976,
+    "genres": [
+      "Drama",
+      "Sport"
+    ],
+    "baseRating": 4.4,
+    "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+    "director": "John G. Avildsen",
+    "runtime": 120,
+    "imdbId": "tt0075148",
+    "poster": "https://image.tmdb.org/t/p/w500/hEjK9A9BkNXejFW4tfacVAEHtkn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bacOuUnRBoAO1NjMfsAGX2EKRrS.jpg",
+    "id": 96
+  },
+  {
+    "title": "Schindler's List",
+    "year": 1993,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "baseRating": 4.9,
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "director": "Steven Spielberg",
+    "runtime": 195,
+    "imdbId": "tt0108052",
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+    "id": 97
+  },
+  {
+    "title": "Braveheart",
+    "year": 1995,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "baseRating": 4.5,
+    "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+    "director": "Mel Gibson",
+    "runtime": 178,
+    "imdbId": "tt0112573",
+    "poster": "https://image.tmdb.org/t/p/w500/or1gBugydmjToAEq7OZY0owwFk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1m1c5gIWWkb1FEC9lzsoXHhhs7b.jpg",
+    "id": 98
+  },
+  {
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "baseRating": 4.5,
+    "description": "A child psychologist comes to the aid of a frightened, clairvoyant boy.",
+    "director": "M. Night Shyamalan",
+    "runtime": 107,
+    "imdbId": "tt0167404",
+    "poster": "https://image.tmdb.org/t/p/w500/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+    "id": 99
+  },
+  {
+    "title": "Catch Me If You Can",
+    "year": 2002,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "baseRating": 4.4,
+    "description": "Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man.",
+    "director": "Steven Spielberg",
+    "runtime": 141,
+    "imdbId": "tt0264464",
+    "poster": "https://image.tmdb.org/t/p/w500/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ggC3Brchf4RqPitEh7cROFoeAWn.jpg",
+    "id": 100
+  },
+  {
+    "title": "Shutter Island",
+    "year": 2010,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "baseRating": 4.4,
+    "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+    "director": "Martin Scorsese",
+    "runtime": 138,
+    "imdbId": "tt1130884",
+    "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
+    "id": 101
+  },
+  {
+    "title": "WALL·E",
+    "year": 2008,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "baseRating": 4.6,
+    "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "director": "Andrew Stanton",
+    "runtime": 98,
+    "imdbId": "tt0910970",
+    "poster": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fK5ssgvtI43z19FoWigdlqgpLRE.jpg",
+    "id": 102
+  },
+  {
+    "title": "Up",
+    "year": 2009,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "baseRating": 4.4,
+    "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+    "director": "Pete Docter",
+    "runtime": 96,
+    "imdbId": "tt1049413",
+    "poster": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+    "id": 103
+  },
+  {
+    "title": "V for Vendetta",
+    "year": 2005,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "baseRating": 4.3,
+    "description": "In a future British tyranny, a shadowy freedom fighter, known only by the alias of 'V', plots to overthrow it with the help of a young woman.",
+    "director": "James McTeigue",
+    "runtime": 132,
+    "imdbId": "tt0434409",
+    "poster": "https://image.tmdb.org/t/p/w500/piZOwjyk1g51oPHonc7zaQY3WOv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5EKplo61HbA5sMGAN0XAvzdo1MX.jpg",
+    "id": 104
+  },
+  {
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "baseRating": 4.5,
+    "description": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+    "director": "Ethan Coen",
+    "runtime": 122,
+    "imdbId": "tt0477348",
+    "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nsHXexZQvUJv8WXvmQHohn5Hv1l.jpg",
+    "id": 105
+  }
+]
